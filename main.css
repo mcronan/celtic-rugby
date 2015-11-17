@@ -1,0 +1,444 @@
+p {
+	font-size: 18px;
+}
+/***** Font *******/
+@import url('http://fonts.googleapis.com/css?family=Lato&subset=latin');
+
+p, h1, h2, h3, h4, h5 {
+	font-family: 'lato', sans-serif;
+}
+
+/*****  Hero *****/
+.img-container {
+	background-image: url("hero.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 600px;
+}
+
+/******* Nav ********/
+.inline {
+	 list-style: none;
+	 display: inline-block;
+	 padding-right: 13px;
+	 font-size: 22px;
+	 color: white !important;
+     text-decoration: none !important;
+     margin-top: 20px;
+}
+
+.last {
+	padding-right: none;
+}
+
+.nav {
+	font-size: 20px;
+}
+
+.container {
+	background-color: green;
+}
+
+.nav a li:hover {
+    padding-left: 13px;
+    background-color: green;
+    border-radius: 3px;
+}
+
+.nav a {
+     text-decoration: none !important;
+}
+
+.last {
+    padding-left: 13px;
+    background-color: green;
+    border-radius: 3px;
+}
+
+
+
+
+/*****  Title *********/
+.title {
+	color: white;
+}
+
+.title-size {
+    font-size: 46px;
+}
+
+/*******  Images  *********/
+
+
+
+/*********  Padding + Spacer **********/
+.pad {
+	padding-bottom: 25px;
+	padding-top: 15px;
+}
+
+.padding-1 {
+	margin-left: 75px;
+}
+
+.padding-2 {
+    margin-left: 50px;
+}
+.padding {
+	margin-left: 5px;
+}
+
+.padding-neg {
+    margin-left: -10px;
+}
+
+.spacer {
+	height: 30px;
+}
+
+.spacer-2 {
+	height: 60px;
+}
+
+.spacer-3 {
+	height: 80px;
+}
+
+.spacer-4 {
+	height: 200px;
+}
+
+.spacer-5 {
+	height: 240px;
+}
+
+.margin-bottom {
+	margin-bottom: 12px;
+}
+
+/*******  Icons   ******/
+
+.center {
+	text-align: center;
+}
+
+.icon-size {
+	font-size: 2em;
+	color: green;
+}
+
+
+
+/******* Quote Button ******/
+.quote-button {
+	padding: 15px 35px;
+	margin-right: -5px;
+	color: white;
+	text-decoration: none;
+	background-color: green;
+	box-shadow: none;
+	border: none;
+}
+
+#quote {
+	font-size: 26px;
+}
+
+/******* Footer ******/
+footer {
+	height: 240px;
+	text-align: center;
+	line-height: 30px;
+	vertical-align: middle;
+	background-color: green;
+	padding-top: 40px;
+}
+
+.footer-li {
+	list-style-type: none;
+	color: white;
+	font-size: 16px;
+}
+
+.first-li {
+	font-weight: bold;
+	padding-bottom: 3px;
+	font-size: 20px;
+}
+
+.size-card {
+	font-size: 4em;
+	padding-right: 10px;
+	padding-top: 40px;
+}
+/******* Homepage Cards ******/
+
+
+/*** About ****/
+.img-container-2 {
+	background-image: url("hero.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 300px;
+}
+
+.about {
+	color: white;
+}
+
+
+/*** Tours ****/
+.tour-contact {
+	color: blue !important;
+	font-size: 16px !important;
+}
+
+/*** Tours Cards ****/
+.transition { transition: .3s cubic-bezier(.3, 0, 0, 1.3) }
+.card {
+    background-color: #fff;
+    bottom: 0;
+    box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.3);
+  -webkit-box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.3);
+  -moz-box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.3);
+    height: 300px;
+    left: 0;
+    margin: auto;
+    overflow: hidden;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 300px;
+}
+.card:hover {
+    height: 425px;
+    width: 300px;
+}
+.card:hover .cta-container {
+    display: inline;
+    margin-top: 380px;
+}
+.card:hover .card-circle,.card-circle-2,.card-circle-3 {
+    background-size: cover;
+    border-radius: 0;
+    margin-top: -130px;
+}
+
+.card:hover .card-circle-2 {
+    background-size: cover;
+    border-radius: 0;
+    margin-top: -130px;
+}
+
+.card:hover .card-circle-3 {
+    background-size: cover;
+    border-radius: 0;
+    margin-top: -130px;
+}
+.card:hover h2 {
+    background: green;
+    color: #fff;
+    margin-top: 100px;
+    padding: 5px;
+}
+.card:hover h2 small { color: #fff }
+.card:hover p { margin-top: 300px }
+.card-circle {
+    background: url('card-1.jpg') no-repeat center bottom;
+    background-color: #3487f7;
+    background-size: cover;
+    border-radius: 50%;
+    height: 400px;
+    margin-left: -75px;
+    margin-top: -270px;
+    position: absolute;
+    width: 450px;
+}
+
+.card-circle-2 {
+    background: url('card-2.jpg') no-repeat center bottom;
+    background-color: #3487f7;
+    background-size: cover;
+    border-radius: 50%;
+    height: 400px;
+    margin-left: -75px;
+    margin-top: -270px;
+    position: absolute;
+    width: 450px;
+}
+
+.card-circle-3 {
+    background: url('card-3.jpg') no-repeat center bottom;
+    background-color: #3487f7;
+    background-size: cover;
+    border-radius: 50%;
+    height: 400px;
+    margin-left: -75px;
+    margin-top: -270px;
+    position: absolute;
+    width: 450px;
+}
+.h2-class {
+    color: green;
+    font-family: 'lato', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 150px;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    z-index: 9999;
+}
+
+.p-class {
+    color: rgba(0,0,0,.6);
+    font-family: 'lato', sans-serif;
+    font-size: 110%;
+    font-weight: normal;
+    margin-top: 200px;
+    position: absolute;
+    text-align: center;
+    z-index: 9999;
+}
+.cta-container {
+    display: none;
+    margin-top: 320px;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    z-index: 9999;
+}
+.cta {
+    -moz-border-radius: 2px;
+    -moz-transition: 0.2s ease-out;
+    -ms-transition: 0.2s ease-out;
+    -o-transition: 0.2s ease-out;
+    -webkit-border-radius: 2px;
+    -webkit-transition: 0.2s ease-out;
+    background-clip: padding-box;
+    background-color: green;
+    border: 2px solid green;
+    border-radius: 2px;
+    color: white;
+    display: inline-block;
+    font-family: 'Raleway', sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    height: 36px;
+    letter-spacing: 0.5px;
+    line-height: 36px;
+    margin-bottom: 15px;
+    padding: 0 2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.2s ease-out;
+}
+.cta:hover {
+    background-color: #42E84C;
+    box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    color: #fff;
+    -moz-box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    -webkit-box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/***** Homepage Cards *****/
+.card-circle-home-1 {
+    background: url('highschool1.jpg') no-repeat center bottom;
+    background-color: #3487f7;
+    background-size: cover;
+    border-radius: 50%;
+    height: 400px;
+    margin-left: -75px;
+    margin-top: -270px;
+    position: absolute;
+    width: 450px;
+}
+
+.card-circle-home-2 {
+    background: url('unirugby1.jpg') no-repeat center bottom;
+    background-color: #3487f7;
+    background-size: cover;
+    border-radius: 50%;
+    height: 400px;
+    margin-left: -75px;
+    margin-top: -270px;
+    position: absolute;
+    width: 450px;
+}
+
+
+.card:hover .card-circle-home-1 {
+    background-size: cover;
+    border-radius: 0;
+    margin-top: -105px;
+}
+
+.card:hover .card-circle-home-2 {
+    background-size: cover;
+    border-radius: 0;
+    margin-top: -105px;
+}
+
+.card-pad {
+	padding-top: 195px;
+	padding-bottom: 230px;
+}
+
+/*** Highschools  *****/
+
+.itinerary-button {
+	padding: 15px 35px;
+	margin-right: -5px;
+	color: white;
+	text-decoration: none;
+	background-color: green;
+	box-shadow: none;
+	border: none;
+}
+
+#quote {
+	font-size: 26px;
+}
+
+/*** Attraction  *****/
+.cork-img {
+    background-image: url("cork-5.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 700px;
+}
+
+.galway-img {
+    background-image: url("galway-2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 720px;
+}
+
+.moher-img {
+    background-image: url("cliffs-4.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+}
+
+.dublin-img {
+    background-image: url("dublin-4.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+}
+
+.glendalough-img {
+    background-image: url("glendalough-2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+}
+
+.cashel-img {
+    background-image: url("cashel-4.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+}
