@@ -452,3 +452,9 @@ footer a {
     background-repeat: no-repeat;
     height: 600px;
 }
+
+/**** Attraction  *****/
+
+.underline {
+    text-decoration: underline;
+}
