@@ -56,8 +56,6 @@ p, h1, h2, h3, h4, h5 {
 }
 
 
-
-
 /*****  Title *********/
 .title {
 	color: white;
@@ -152,12 +150,17 @@ footer {
 	vertical-align: middle;
 	background-color: green;
 	padding-top: 40px;
+    text-decoration: none;
 }
 
 .footer-li {
 	list-style-type: none;
 	color: white;
 	font-size: 16px;
+}
+
+footer a {
+    text-decoration: none !important;
 }
 
 .first-li {
@@ -171,6 +174,7 @@ footer {
 	padding-right: 10px;
 	padding-top: 40px;
 }
+
 /******* Homepage Cards ******/
 
 
