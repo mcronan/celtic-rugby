@@ -55,6 +55,12 @@ p, h1, h2, h3, h4, h5 {
     border-radius: 3px;
 }
 
+.mini-li {
+    font-size: 12px;
+    text-align: center;
+/*    text-decoration: underline;
+*/}
+
 
 /*****  Title *********/
 .title {
