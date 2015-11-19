@@ -116,6 +116,10 @@ p, h1, h2, h3, h4, h5 {
 	height: 240px;
 }
 
+.spacer-6 {
+    height: 150px;
+}
+
 .margin-bottom {
 	margin-bottom: 12px;
 }
