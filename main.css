@@ -453,8 +453,34 @@ footer a {
     height: 600px;
 }
 
-/**** Attraction  *****/
+/**** Attractions  *****/
 
 .underline {
     text-decoration: underline;
 }
+
+/**** Referral  *****/
+.referral-title {
+    font-size: 60px;
+    color: white;
+    background-color: rgba(192,192,192,0.4);
+}
+
+
+.referral-title.size {
+    font-size: 55px;
+}
+
+.img-container-referral {
+    background-image: url("america.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 800px;
+}
+
+.referral-box {
+    background-color: #ededee;
+    height: 200px;
+    width: 100%;
+}
+
