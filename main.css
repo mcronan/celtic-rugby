@@ -474,7 +474,7 @@ footer a {
 
 .referral-title.subtitle {
     font-size: 35px;
-    padding-left: 15px;
+    padding-left: 25px;
 }
 
 .img-container-referral {
@@ -488,6 +488,9 @@ footer a {
     background-color: #ededee;
     height: 200px;
     width: 100%;
+}
+.a2a_kit {
+    padding-left: 40px;
 }
 
 /*** Share buttons*****/
