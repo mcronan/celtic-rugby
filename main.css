@@ -486,11 +486,15 @@ footer a {
 
 .referral-box {
     background-color: #ededee;
-    height: 200px;
+    height: 400px;
     width: 100%;
 }
 .a2a_kit {
     padding-left: 40px;
+}
+
+.referral-li {
+    font-size: 18px;
 }
 
 /*** Share buttons*****/
