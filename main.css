@@ -132,7 +132,6 @@ p, h1, h2, h3, h4, h5 {
 }
 
 
-
 /******* Quote Button ******/
 .quote-button {
 	padding: 15px 35px;
@@ -475,7 +474,7 @@ footer a {
     background-image: url("america.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    height: 800px;
+    height: 700px;
 }
 
 .referral-box {
