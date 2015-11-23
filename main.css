@@ -66,6 +66,8 @@ p, h1, h2, h3, h4, h5 {
     padding-left: 17px;
     margin-left: -6px;
     margin-right: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
 }
 
 #referral-button:hover {
@@ -425,7 +427,7 @@ footer a {
 	font-size: 26px;
 }
 
-/*** Attraction  *****/
+/**** Attraction  *****/
 .cork-img {
     background-image: url("cork-5.jpg");
     background-size: cover;
@@ -510,6 +512,7 @@ footer a {
     height: 400px;
     width: 100%;
 }
+
 .a2a_kit {
     padding-left: 40px;
 }
