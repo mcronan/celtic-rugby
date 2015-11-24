@@ -10,7 +10,7 @@ p, h1, h2, h3, h4, h5 {
 
 /*****  Hero *****/
 .img-container {
-	background-image: url("hero.jpg");
+	background-image: url("hero-copy.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 	height: 600px;
