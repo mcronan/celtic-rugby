@@ -45,6 +45,10 @@ p, h1, h2, h3, h4, h5 {
     border-radius: 3px;
 }
 
+.about-button:hover {
+    margin-right: 4px;
+}
+
 .nav a {
      text-decoration: none !important;
 }
@@ -500,6 +504,14 @@ footer a {
     padding-left: 25px;
 }
 
+.top {
+    padding-left: 15px;
+}
+
+.sub-sub {
+    padding-left: 43px;
+}
+
 .img-container-referral {
     background-image: url("america.jpg");
     background-size: cover;
@@ -520,6 +532,13 @@ footer a {
 .referral-li {
     font-size: 18px;
 }
+
+/** Good for centering **/
+.col-centered {
+    float: none;
+    margin: 0 auto;
+}
+
 
 /*.center-block {
     margin-left: auto;
