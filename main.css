@@ -415,6 +415,13 @@ footer a {
 	padding-bottom: 230px;
 }
 
+.left {
+    margin-right: 30px;
+}
+
+.right {
+    margin-left: 50px;
+}
 /*** Highschools  *****/
 
 .itinerary-button {
@@ -562,4 +569,12 @@ footer a {
     margin-top: 30px;
 }
 
+/***** Responsive *****/
+
+@media (max-width: 570px) {
+    .card-transition {
+        padding-right: 50px;
+
+    }
+} 
 
