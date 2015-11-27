@@ -115,6 +115,10 @@ p, h1, h2, h3, h4, h5 {
     margin-left: -10px;
 }
 
+.padding-neg-2 {
+    margin-left: -50px;
+}
+
 .spacer {
 	height: 30px;
 }
