@@ -420,11 +420,11 @@ footer a {
 }
 
 .left {
-    margin-right: 30px;
+    margin-right: 5px;
 }
 
 .right {
-    margin-left: 50px;
+    margin-right: -100px;
 }
 /*** Highschools  *****/
 
@@ -575,10 +575,10 @@ footer a {
 
 /***** Responsive *****/
 
-@media (max-width: 570px) {
+/*@media (max-width: 570px) {
     .card-transition {
         padding-right: 50px;
 
     }
-} 
+} */
 
