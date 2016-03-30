@@ -88,6 +88,14 @@ p, h1, h2, h3, h4, h5 {
 
 .title-size {
     font-size: 46px;
+
+}
+
+.the-subtitle {
+    background-color: black;
+    color: white;
+    width: 480px; 
+    font-size: 46px;
 }
 
 /*******  Images  *********/
