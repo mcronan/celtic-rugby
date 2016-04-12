@@ -385,47 +385,14 @@ footer a {
     -webkit-box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-/***** Homepage Cards *****/
-.card-circle-home-1 {
-    background: url('highschool1.jpg') no-repeat center bottom;
-    background-color: #3487f7;
-    background-size: cover;
-    border-radius: 50%;
-    height: 400px;
-    margin-left: -75px;
-    margin-top: -270px;
-    position: absolute;
-    width: 450px;
-}
 
-.card-circle-home-2 {
-    background: url('unirugby1.jpg') no-repeat center bottom;
-    background-color: #3487f7;
-    background-size: cover;
-    border-radius: 50%;
-    height: 400px;
-    margin-left: -75px;
-    margin-top: -270px;
-    position: absolute;
-    width: 450px;
-}
-
-.card:hover .card-circle-home-1 {
-    background-size: cover;
-    border-radius: 0;
-    margin-top: -105px;
-}
-
-.card:hover .card-circle-home-2 {
-    background-size: cover;
-    border-radius: 0;
-    margin-top: -105px;
-}
 
 /** Homepage Cards **/
 .card-pad {
-	padding-top: 195px;
-	padding-bottom: 230px;
+	padding-top: 30px;
+	padding-bottom: 40px;
+    padding-left: 50px;
+
 }
 
 .left {
@@ -436,6 +403,16 @@ footer a {
 .right {
     margin-right: -145px;
 }
+
+.color {
+    color: #296b00;
+}
+
+.p-color {
+    color: #424242
+}
+
+
 /*** Highschools  *****/
 
 .itinerary-button {
