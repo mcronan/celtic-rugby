@@ -16,6 +16,13 @@ p, h1, h2, h3, h4, h5 {
 	height: 600px;
 }
 
+.img-container-wrwc {
+    background-image: url("women-hero.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+}
+
 /******* Nav ********/
 .inline {
 	 list-style: none;
@@ -88,7 +95,6 @@ p, h1, h2, h3, h4, h5 {
 
 .title-size {
     font-size: 46px;
-
 }
 
 .the-subtitle {
@@ -97,6 +103,31 @@ p, h1, h2, h3, h4, h5 {
     width: 460px; 
     font-size: 42px;
 }
+
+/*****  WRWC *********/
+.title-size-wrwc {
+    background-color: #296b00;
+    color: white;
+    width: 550px; 
+    font-size: 42px;
+}
+
+.offer {
+    border-bottom: 1px solid black;
+}
+
+.offer-box {
+    height: 200px;
+    width: 250px;
+    background-color: #3dbcea;
+    padding: 10px;
+    color: white;
+}
+
+.event-details {
+    text-decoration: underline;
+}
+
 
 
 /*********  Padding + Spacer **********/
