@@ -106,10 +106,15 @@ p, h1, h2, h3, h4, h5 {
 
 /*****  WRWC *********/
 .title-size-wrwc {
-    background-color: #296b00;
+    background-color: #3dbcea;
     color: white;
     width: 550px; 
     font-size: 42px;
+}
+
+.the-subtitle-wrwc {
+    background-color: #3dbcea;
+    color: white;
 }
 
 .offer {
@@ -127,7 +132,6 @@ p, h1, h2, h3, h4, h5 {
 .event-details {
     text-decoration: underline;
 }
-
 
 
 /*********  Padding + Spacer **********/
