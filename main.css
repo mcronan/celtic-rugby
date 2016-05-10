@@ -28,7 +28,7 @@ p, h1, h2, h3, h4, h5 {
 	 list-style: none;
 	 display: inline-block;
 	 padding-right: 13px;
-	 font-size: 22px;
+	 font-size: 18px;
 	 color: white !important;
      text-decoration: none !important;
      margin-top: 20px;
@@ -102,35 +102,6 @@ p, h1, h2, h3, h4, h5 {
     color: white;
     width: 460px; 
     font-size: 42px;
-}
-
-/*****  WRWC *********/
-.title-size-wrwc {
-    background-color: #3dbcea;
-    color: white;
-    width: 550px; 
-    font-size: 42px;
-}
-
-.the-subtitle-wrwc {
-    background-color: #3dbcea;
-    color: white;
-}
-
-.offer {
-    border-bottom: 1px solid black;
-}
-
-.offer-box {
-    height: 200px;
-    width: 250px;
-    background-color: #3dbcea;
-    padding: 10px;
-    color: white;
-}
-
-.event-details {
-    text-decoration: underline;
 }
 
 
@@ -606,3 +577,34 @@ a:link {
 .right-padding {
     padding-right: 70px;
 }
+
+/*****  WRWC *********/
+.title-size-wrwc {
+    background-color: #3dbcea;
+    color: white;
+    width: 550px; 
+    font-size: 42px;
+}
+
+.the-subtitle-wrwc {
+    background-color: #3dbcea;
+    color: white;
+  
+}
+
+.offer {
+    border-bottom: 1px solid black;
+}
+
+.offer-box {
+    height: 200px;
+    width: 250px;
+    background-color: #3dbcea;
+    padding: 10px;
+    color: white;
+}
+
+.event-details {
+    text-decoration: underline;
+}
+
